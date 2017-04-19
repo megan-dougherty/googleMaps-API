@@ -5,27 +5,21 @@
   <script src="https://use.fontawesome.com/711885524a.js"></script>
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 
 </head>
 <body>	
-	
-    <div id="googleMap" style="width: 500px; height: 380px;"></div>
+	 
+    <h1> Wanna be G Maps </h1>
+    <div id="googleMap"></div>
 
 
   <script src="http:///maps.googleapis.com/maps/api/js"></script>
-      <script>
-          function initialize(){
-              var mapProp = {
-                center: new google.maps.LatLng(37.788890, -122.398104),
-                zoom: 5,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-              }
-              var map = new google.maps.Map(document.getElementById('googleMap'), mapProp)
-          }
-          google.maps.event.addDomListener(window, 'load', initialize )
 
-      </script>
+  <script src="js/main.js"></script>
 
-
+  <!-- *****API KEY*****
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ2ugtn9M2gC9yGseuwQSO_rb8cbmZwvs&callback=initMap"
+  async defer></script> -->
 
 </body>
