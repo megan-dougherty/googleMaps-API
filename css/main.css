@@ -1,5 +1,7 @@
 html {
-	background-color: #78c471;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h1 {
@@ -7,14 +9,15 @@ h1 {
 	text-align: center;
 	letter-spacing: 1px;
 	font-size: 40px;
-	margin-top: 2%;
+	margin-top: 5%;
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #googleMap {
-	width: 700px; 
-	height: 450px;
-	margin-left: 16%;
+	width: 600px; 
+	height: 350px;
+	margin-top: 10%;
+	margin-left: 22%;
 	border: 2px solid black;
 }
